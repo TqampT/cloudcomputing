@@ -1,0 +1,242 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+p{
+  font-family: "Hind", sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+}
+/* Top/Nav css code  */
+.nav-container{
+  background: #FFFFFF;
+  background-blend-mode: color;
+  mix-blend-mode: normal;
+  width: 1440px;
+  border: 4px solid #FFF7FE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 72px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 66px;
+}
+nav ul{
+  display: flex;
+}
+.nav-item li{
+  list-style: none;
+  margin-left: 50px;
+}
+li:nth-child(5){
+  margin-left: 50px;
+  margin-right: 50px;
+}
+li:nth-child(6){
+  margin-left: 350px;
+}
+li:nth-child(7){
+margin-left: 5px;
+}
+li:nth-child(6),li:nth-child(7){
+  position: relative;
+left: -50px;
+}
+.nav-item li a {
+  color: #021718;
+  font-family: "Poppins",sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-decoration: none;
+}
+#Login:hover{
+color: rgba(186, 5, 105, 0.86);
+}
+#Register:hover{
+    background: rgba(251, 165, 222, 0.86);
+}
+#Register{
+  background: rgba(250, 150, 222, 0.86);
+  padding: 12px;
+  border-radius: 15px;
+}
+.test:hover{
+color: rgba(186, 5, 105, 0.86);
+}
+#search-input{
+  width: 150px;
+  height: 15px;
+  padding: 15px;
+  border-radius: 40px;
+  background: rgba(217, 213, 215, 0.86);
+}
+
+/* Top/Nav css code  */
+
+/* background css code  */
+.head-container{
+  background: #FEDCFF;
+  width: 1440px;
+  background-size: 827px 666px;
+  height: calc(100vh - 72px);
+  display: flex;
+}
+.wrapper{
+  width: 690px;
+  height: auto;
+  margin-left: 750px;
+  top: 200px;
+  position: absolute;
+}
+#proseso{
+  width: 685px;
+height: 117px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 121px;
+text-align: center;
+color: #720243;
+}
+#word{
+  font-family: 'Hind', sans-serif;
+  position: relative;
+  right: 67px;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 56px;
+text-align: center;
+}
+#quote{
+  position: relative;
+  top: -20px;
+  margin-left: 220px;
+  font-family: 'Hind', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 56px;
+text-align: center;
+}
+/* background css code  */
+
+/* About & Footer css code  */
+.bottom-container{
+  background: #7D497E;
+  width: 1440px;
+  height: 250px;
+}
+.wraps{
+  position: absolute;
+  width: 1440px;
+}
+h4{
+  position: relative;
+  top: 25px;
+color: #FCC4E3;
+font-family: 'Hind',sans-serif;
+display: inline-block;
+margin-left: 200px;
+}
+.abouts{
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+.products{
+  position: absolute;
+  top: 50px;
+  left: 475px;
+}
+.services{
+  position: absolute;
+  top: 50px;
+  right: 609px;
+
+}
+.contact-img{
+  width: 32px;
+  height: 32px;
+  margin-left: 15px;
+}
+.contacts{
+  position: absolute;
+  top: 50px;
+  right: 333px;
+}
+#feature-items{
+  position: relative;
+  bottom: -35px;
+  right: -50px;
+  width: 230px;
+  height: 290px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+.feature-itemS{
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+#f-is1{
+  top: 265px;
+  right: 30px;
+}
+.feature-itemS:hover, #feature-items:hover{
+  box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.25);
+}
+#f-is2{
+  top: 395px;
+  right: 30px;
+}
+@media screen and (min-width:1450px){
+  .head-container{
+    background: #FEDCFF url("image/Group-1.svg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 827px 666px;
+    height: calc(100vh - 72px);
+    display: flex;
+  }
+  .nav-container{
+    background: #FFFFFF;
+    background-blend-mode: color;
+    mix-blend-mode: normal;
+    width: 100%;
+    border: 4px solid #FFF7FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 72px;
+  }
+  .wrapper{
+    width: 690px;
+    height: auto;
+    margin-left: 980px;
+    top: 200px;
+    position: absolute;
+  }
+  .bottom-container{
+    background: #7D497E;
+    width: 100%;
+    height: 250px;
+  }
+  .wraps{
+    position: absolute;
+    width: 1440px;
+    left: 330px;
+  }
+}
+/* About css code  */
